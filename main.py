@@ -33,8 +33,8 @@ max_intelligence_hero(['Hulk', 'Captain America', 'Thanos'])
 # Задание2-------------------------------------------------------------------------------------------------------------
 
 if __name__ == '__main__':
-    path_to_file = 'testPython4.txt'
-    token = "y0_AgAAAAADwO4RAADLWwAAAADevVOTtNbt6MzaRgusACeT9tVvm2zEsn4"
+    path_to_file = ' '
+    token = " "
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
 
